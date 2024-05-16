@@ -74,3 +74,4 @@ res_merged <- do.call(rbind, res)
 
 today <- format(Sys.Date(), "%Y-%m-%d")
 saveRDS(res_merged, file = print(file.path(dir, paste0(today, "_winners_curse_results.rds"))))
+

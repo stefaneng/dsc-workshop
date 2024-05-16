@@ -1,3 +1,11 @@
+# (base) ➜  dsc-workshop-Zöllner git:(main) ✗ dsc 1_GWASbrewer.dsc --replicate 5
+# INFO: DSC script exported to 2024-05-14_winners_curse.html
+# INFO: Constructing DSC from 1_GWASbrewer.dsc ...
+# INFO: Building DSC database ...
+# [#####] 5 steps processed (153 jobs completed)
+# INFO: DSC complete!
+# INFO: Elapsed time 213.808 seconds.
+
 DSC:
   define:
     analyze: winners_curse_nesmr
@@ -27,3 +35,5 @@ winners_curse_nesmr: winners_curse/fit_ma_nesmr.R
   $ma_ix: ma_ix
   $ma_SNP_model: ma_SNP_model
   $seed: DSC_SEED
+
+
